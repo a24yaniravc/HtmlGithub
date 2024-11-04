@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="a"></div><div id="o"></div><div id="b"></div>
-<style>
-  body{background:#62306D}
-  #a{
-    position:absolute;
-    width:200px;
-    height:200px;
-    background:#F7EC7D;
-    border-radius:50%;
-    top:50;
-    left:100
-  }
-  #b{
-    position:absolute;
-    width:120px;
-    height:120px;
-    background:#62306D;
-    border-radius:50%;
-    top:90;
-    left:140
-  }
-  #o{
-    position:absolute;
-    width:100px;
-    height:100px;
-    border-radius:100% 0 0;
-    background:#E38F66;
-    top:50;
-    left:100
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: #62306D
+    }
+
+    main {
+      background-image: url(img/donuts.png);
+      position: absolute;
+      padding: 200px;
+      width: 100%;
+      top: 300px
+    }
+
+    #a {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: #F7EC7D;
+      border-radius: 50%;
+      top: 50px;
+      left: 100px;
+    }
+
+    #b {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background: #62306D;
+      border-radius: 50%;
+      top: 90px;
+      left: 140px;
+    }
+
+    #o {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 100% 0 0;
+      background: #E38F66;
+      top: 50px;
+      left: 100px;
+    }
+
+    h1, h3, footer{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     
-  }
-</style>
+    h1 {
+      position: absolute;
+      color: #F7EC7D;
+      display: flex;
+      top: 75px;
+      justify-content: center;
+      margin: auto;
+      width: 100%;
+    }
+
+    h3 {
+      position: absolute;
+      color: #F7EC7D;
+      top: 170px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      width: 100%;
+    }
+
+    footer{
+      position: absolute;
+      display:flex;
+      margin: 0px;
+      color: #F7EC7D;
+      top: 710px;
+      justify-content: center;
+      margin: auto;
+      width: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="a"></div>
+    <div id="o"></div>
+    <div id="b"></div>
+    <h1>Donut</h1>
+    <h3>A donut is a small, circular cake, fried in hot fat, either with a hole in the <br> middle or filled with jam.</h3>
+  </header>
+  <main></main>
+  <footer>
+    <h5>&copy;2024</h5>
+  </footer>
 </body>
+
 </html>
