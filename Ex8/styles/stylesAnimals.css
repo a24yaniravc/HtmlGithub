@@ -1,0 +1,12 @@
+body{
+    position: flex;
+    align-items: center;
+    background-color: #f68134;
+}
+
+div {
+    padding: 50px;
+    border-radius: 5%;
+    background-color: #6ac5e2;
+}
+
