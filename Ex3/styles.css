@@ -9,7 +9,10 @@ form{
     margin: 0;
     background-color:lavender ;
     color:black;
-    
-    
+}
 
+footer{
+    margin: 0;
+    background-color: black ;
+    color:white;
 }
