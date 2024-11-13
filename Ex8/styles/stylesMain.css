@@ -1,23 +1,45 @@
-body{
-    background-image:url(../animals-resources/banner1.png)
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: "Lexend", sans-serif;
+    background-color: #f68134;
 }
 
-section {
+img {
+    width: 100%;
+}
+
+main {
     display: flex;
-    background-color:#6ac5e2;
-    border-radius: 2%;
-    padding: 10px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 0px;
-    flex-direction: column;
     align-items: center;
-    text-wrap: wrap;
+    justify-content: center;
+    height: 36%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #6ac5e2;
+    font-size: 60px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: rgb(45, 93, 182);
+}
+
+a:visited {
+    color: black;
 }
 
 footer {
     display: flex;
-    justify-content: center;
     color:white;
     background-color: #6ac5e2;
+    justify-content: center;
+    align-items: center;
+    height:5%;
+    width: 100%;
 }
