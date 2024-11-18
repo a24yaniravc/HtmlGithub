@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        html{
+            height:100vh;
+        }
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        footer, header{
+            background-color: goldenrod;        }
+        main{
+            background-color: thistle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            padding: 1em;
+            text-align: center;
+            margin:0;
+        }
+        article{
+            height: 10vh;
+            width: 10vw;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <header><p>This is the header</p></header>
+    <main>
+        <article>
+
+        </article>
+    </main>
+    <footer><p>This is the footer</p></footer>
+</body>
+</html>

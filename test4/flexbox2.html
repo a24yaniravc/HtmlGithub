@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 2</title>
+    <style>
+        html{
+            height:100vh;
+        }
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        footer, header{
+            background-color: goldenrod;        }
+        main{
+            background-color: thistle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90vw;
+            flex-wrap: wrap;
+        }
+        p{
+            padding: 1em;
+            text-align: center;
+            margin:0;
+        }
+        article{
+            height: 30vh;
+            width: 30vw;
+        }
+        article:nth-of-type(1){
+            background-color: chartreuse;
+        }
+        article:nth-of-type(2){
+            background-color: chocolate;
+        }
+        article:nth-of-type(3){
+            background-color: cornflowerblue;
+        }
+        article:nth-of-type(4){
+            background-color: crimson;
+        }
+        article:nth-of-type(5){
+            background-color: darkorchid;
+        }
+        article:nth-of-type(6){
+            background-color: darkorange;
+        }
+        article:nth-of-type(7){
+            background-color: fuchsia;
+        }
+        article:nth-of-type(8){
+            background-color: forestgreen;
+        }
+        article:nth-of-type(9){
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <header><p>This is the header</p></header>
+    <main>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+    </main>
+    <footer><p>This is the footer</p></footer>
+</body>
+</html>
