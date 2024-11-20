@@ -27,10 +27,10 @@ main {
     padding-top: 4vw; padding-bottom: 4vw;
 }
 
-main>section{
+section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 main>section>article{
@@ -44,6 +44,7 @@ main>section>article>figure{
     border-radius: 5%;
     padding: 2vw;
     padding-bottom: 1vw;
+    margin: 1vw;
 }
 
 main>section>article>figure>img{
