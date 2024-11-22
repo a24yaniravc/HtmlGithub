@@ -1,4 +1,111 @@
-html{
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6e9;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header>section{
+}
+
+header>section:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    display: flex;
+    text-align: center;
+    padding: 4.5vh;
+    padding-top: 0vw; padding-bottom: 0vw;
+}
+
+/* MAIN */
+
+/* INICIO */
+
+main>#start {
+    display: flex;
+    flex-direction: row;
+}
+
+#start>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#start>article>div>p>a{
+    border: solid;
+    border-color: #590209;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 2vw;
+}
+
+/* QUIEN SOMOS */
+
+main>#whoAreWe{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#whoAreWe>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#whoAreWe>article>div:nth-of-type(1){
+    height: 110px;
+}
+
+#whoAreWe>article>div:nth-of-type(3) {
+    padding-top: 15px;
+}
+
+#whoAreWe>article>div>p>a{
+    border: solid;
+    border-color: #590209;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 2vw;
+}
+
+/* LETRAS */
+
+h1,h3,p,a{
+    color: #590209;
+    text-align: center;
+}
+
+h1{
+    font-size:70px;
+}
+
+strong{
+    font-size:50px;
+}
+
+a{
+    text-decoration:none;
+}
+
+p{
+    font-size: 50px;
+}
+
+
+/*html{
     height:100%;
 }
 
@@ -12,34 +119,30 @@ body{
 }
 
 header {
+    background-color: blue;
+    margin: 1vw;
     display: flex;
-    align-items: center;
-    position: fixed;
+    justify-content: space-between;
 }
 
 header>section{
     display: flex;
-    align-content: flex-end;
-}
-
-header>section:nth-child(1){
-   display: flex;
-   justify-content: flex-start;
+    flex-direction: row;
 }
 
 nav {
-    padding: 2vw;
+    border-radius: 15%;
     background-color: #f8f6e9;
+}
+
+nav:nth-of-type(1){
+    justify-content: flex-start;
 }
 
 h1,h3,p{
     color: #590209;
 }
 
-
-footer{
-
-}
 
 /* #f8f6e9;
 
