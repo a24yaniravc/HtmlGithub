@@ -17,20 +17,43 @@ article{
 header{
     position: fixed;
     display: flex;
-}
-
-header>nav>ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
 }
 
+header>nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header>nav>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2vw
+}
+
+header>nav>ul>li{
+    justify-content: space-between;
+}
+
+header>nav>ul:nth-of-type(1)>li>a{
+    justify-content: space-between;
+    padding:5vh; padding-left: 13vh;
+}
+
 header>nav>ul>li>a{
+    width: 100vh;
     padding: 2vw;
-    padding-bottom: 1vw;
+    padding-bottom: 1vw; padding-top: 1vw;
     background-color: #f8f6e9;
     border-radius: 15%;
+}
+
+header>nav>ul>li>a:hover{
+    background-color: #590209;
+    color: #f8f6e9;
 }
 
 /* MAIN */
@@ -103,23 +126,39 @@ section:nth-of-type(3)>article>div>p>a{
     padding: 2vw;
 }
 
-section:nth-of-type(4)>article{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 4vw;
-    justify-content: space-between;
-   
-}
-
-section:nth-of-type(4)>article>div{
+picture{
     display: flex;
     flex-direction: column;
-    padding-left:5vh ; padding-right:5vh ;
+    align-items: center;
+    padding-bottom: 2vw;
 }
 
-section:nth-of-type(4)>article>div>p {
+section:nth-of-type(4)>article{
+    padding-left: 5vw;
+    padding-right: 6vw;
+}
+
+section:nth-of-type(4)>article>div>ul{
+    list-style-type: none;
     display: flex;
-    text-align: left;
+    flex-direction: column;
+    width: 80%;
+}
+
+li{
+    text-align: justify;
+    padding-bottom: 1vw;
+}
+
+section:nth-of-type(4)>div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+
+section:nth-of-type(4)>article>picture{
+    display: flex;
+    flex-direction: column;
 }
 
 /* */
@@ -161,12 +200,18 @@ section:nth-of-type(3)>article>div>p>strong {
     font-size: 40px;
 }
 
-section:nth-of-type(4)>article>div>p{
+section:nth-of-type(4)>article>div>ul>li{
     font-size: 28px;
 }
 
-section:nth-of-type(4)>article>div>p>strong {
-    font-size: 30px;
+section:nth-of-type(4)>article>div>picture>p>strong {
+    font-size: 40px;
+}
+
+picture>strong{
+    font-size: 35px;
+    color:#590209;
+    padding-top:2vw;
 }
 
 /*html{
