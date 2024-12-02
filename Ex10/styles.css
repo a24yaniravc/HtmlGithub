@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f8f6e9;
+    width: 100%;
 }
 
 article{
@@ -10,6 +11,10 @@ article{
     text-align: center;
     padding: 4.5vh;
     padding-top: 0vw; padding-bottom: 0vw;
+}
+
+section{
+    width: 100%;
 }
 
 /* HEADER */
@@ -133,6 +138,10 @@ picture{
     padding-bottom: 2vw;
 }
 
+section:nth-of-type(4){
+    padding-bottom: 125px;
+}
+
 section:nth-of-type(4)>article{
     padding-left: 5vw;
     padding-right: 6vw;
@@ -161,13 +170,41 @@ section:nth-of-type(4)>article>picture{
     flex-direction: column;
 }
 
-/* */
+/* PARTNERS */
 
 section:nth-of-type(5)>article{
-    padding: 5vw;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    padding-top: 125px;
 }
+
+section:nth-of-type(5)>article>p>a{
+    border: solid;
+    border-color: #590209;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 2vw;
+}
+
+section:nth-of-type(5)>article:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-of-type(5)>article:nth-of-type(2)>div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+section:nth-of-type(5)>article:nth-of-type(2)>div>p{
+    text-align: justify;
+    padding-left: 6vh; padding-right: 6vh;
+    font-size:30px;
+}
+
+/* */
 
 /* LETRAS */
 
@@ -214,44 +251,11 @@ picture>strong{
     padding-top:2vw;
 }
 
-/*html{
-    height:100%;
+section:nth-of-type(5)>article>p{
+    font-size: 40px;
 }
 
-body{
-    height: 100%;
-    width: 100%;
-    margin:0;
-    display: flex;
-    flex-direction: column;
-    background-color: #f8f6e9;
+section:nth-of-type(5)>article>h2{
+    color:#590209;
+    font-size: 50px;
 }
-
-header {
-    background-color: blue;
-    margin: 1vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-header>section{
-    display: flex;
-    flex-direction: row;
-}
-
-nav {
-    border-radius: 15%;
-    background-color: #f8f6e9;
-}
-
-nav:nth-of-type(1){
-    justify-content: flex-start;
-}
-
-h1,h3,p{
-    color: #590209;
-}
-
-
-/* #f8f6e9;
-
