@@ -14,12 +14,9 @@ body {
 article{
     display: flex;
     text-align: center;
-    padding: 4.5vh;
     padding-top: 0vw; padding-bottom: 0vw;
-}
-
-section{
     width: 100%;
+    padding-right:0vw;
 }
 
 /* HEADER */
@@ -75,18 +72,29 @@ main>section:nth-of-type(1) {
     flex-direction: row;
 }
 
-section:nth-of-type(1)>article{
+section:nth-of-type(1)>article:nth-of-type(1)>img{
+    display: flex;
+    align-self: left;
+    width: 100%;
+}
+
+section:nth-of-type(1)>article:nth-of-type(2){
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-section:nth-of-type(1)>article>div>p>a{
+section:nth-of-type(1)>article:nth-last-of-type(2)>div{
+    width: 50%;
+}
+
+section:nth-of-type(1)>article:nth-last-of-type(2)>div>p>a{
     border: solid;
     border-color: #590209;
     border-radius: 20px;
     border-width: 3px;
     padding: 2vw;
+    width: 50%;
 }
 
 /* QUIEN SOMOS */
@@ -123,7 +131,7 @@ section:nth-of-type(2)>article>div>p>a{
 /* WHAT WE OFFER */
 
 section:nth-of-type(3)>article{
-    padding: 5vw;
+    padding-top: 5vw; padding-bottom: 5vw;
     display: flex;
     flex-direction: column;
 }
@@ -147,9 +155,8 @@ section:nth-of-type(4){
     padding-bottom: 125px;
 }
 
-section:nth-of-type(4)>article{
-    padding-left: 5vw;
-    padding-right: 6vw;
+section:nth-of-type(4){
+    margin: 1vw;
 }
 
 section:nth-of-type(4)>article>div>ul{
